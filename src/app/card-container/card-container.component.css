@@ -1,0 +1,27 @@
+.first{
+    float: left;
+    height: 800px;
+    overflow: auto;
+}
+
+.second{
+    float: left;
+}
+
+.wrapper{
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(67, 72, 92, 0.2);
+    width: 100%;
+    position: relative;
+    height: 800px;
+    overflow: auto;
+    right: 15px;
+    top: 8px;
+}
+
+.wrapper-header{
+    background-color: red;
+    color: white;
+    height: 70px;
+    padding-left: 10px;
+}

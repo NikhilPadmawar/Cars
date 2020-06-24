@@ -1,0 +1,38 @@
+<div class="main-container">
+    <div class="d-flex bd-highlight">
+        <div class="mr-auto pl-2 pr-2 bd-highlight">
+            <label>VIN Number</label>
+            <p>{{car.vinNo}}</p>
+        </div>
+        <div class="pl-2 pr-2 bd-highlight">
+            <label>Request Time</label>
+            <p>11:30 PM</p>
+        </div>
+    </div>
+    <hr />
+    <div class="d-flex bd-highlight">
+        <div class="mr-auto pl-2 pr-2 bd-highlight">
+            <label>Work Order</label>
+            <p>{{car.repairShopDetail.workOrderNo}}</p>
+            <label>Calibration Service No.</label>
+            <p>#1234589</p>
+        </div>
+        <div class="pl-2 pr-2 bd-highlight">
+            <img class="car-img mt-3 mr-2" src="{{car.img}}" />
+        </div>
+    </div>
+    <div class="d-flex bd-highlight">
+        <div class="mr-auto pl-2 pr-2 bd-highlight">
+            <label>Repair Shop Name</label>
+            <p>{{car.repairShopDetail.shopName}}</p>
+        </div>
+        <div class="pl-2 pr-2 mr-4 bd-highlight">
+            <label>Techincian Name</label>
+            <p>{{car.repairShopDetail.technicianName}}</p>
+        </div>
+    </div>
+    <hr />
+    <div class="d-flex pt-2 pb-3 pl-4 pr-4 bd-highlight justify-content-center">
+        <button type="button" class="btn btn-success btn-block">Process Request</button>
+    </div>
+</div>

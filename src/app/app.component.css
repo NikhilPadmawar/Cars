@@ -1,0 +1,12 @@
+.navbar{
+    height: 80px;
+    box-shadow: 0 1px 4px rgba(67, 72, 92, 0.2);
+    background-color: white;
+}
+
+.filter{
+    height: 100px;
+    margin: 10px 30px;
+    box-shadow: 0 1px 4px rgba(67, 72, 92, 0.2);
+    background-color: white;
+}
