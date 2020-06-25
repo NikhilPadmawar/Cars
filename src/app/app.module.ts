@@ -7,11 +7,13 @@ import { CardContainerComponent } from './card-container/card-container.componen
 import { CardComponent } from './card/card.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { PreScanComponent } from './pre-scan/pre-scan.component';
 @NgModule({
   declarations: [
     AppComponent,
     CardContainerComponent,
-    CardComponent
+    CardComponent,
+    PreScanComponent
   ],
   imports: [
     BrowserModule,

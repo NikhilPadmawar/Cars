@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-card-container',
@@ -7,13 +8,13 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardContainerComponent implements OnInit {
 
+  carList: any = [];
 
-  // tslint:disable-next-line: no-input-rename
-  @Input('carList') carList: any;
-
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private httpClient: HttpClient) { }
+  ngOnInit() {
+    this.httpClient.get('assets/list.json').subscribe(data => {
+      this.carList = data;
+    });
   }
 
 }

@@ -7,10 +7,11 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#"> Orders <span class="sr-only">(current)</span></a>
+        <a class="nav-link" routerLink="/orders" routerLinkActive="active"> Orders <span
+            class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pre Scan</a>
+        <a class="nav-link" routerLink="/prescan" routerLinkActive="active">Pre Scan</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Calibration</a>
@@ -44,8 +45,6 @@
   </div>
 </nav>
 
-<div class="filter">
 
-</div>
 
-<app-card-container [carList]="carList"></app-card-container>
+<router-outlet></router-outlet>

@@ -1,0 +1,33 @@
+.filter{
+    height: 100px;
+    margin: 10px 40px;
+    overflow-x: auto;
+    box-shadow: 0 1px 4px rgba(67, 72, 92, 0.2);
+    background-color: white;
+}
+
+label{
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.detailed-view{
+    margin: 40px;
+}
+
+.tab-content{
+    background-color: white;
+    margin-left: 1px;
+}
+
+#home-tab{
+    padding-top: 1px;
+    border-top: 4px solid #007bff;
+}
